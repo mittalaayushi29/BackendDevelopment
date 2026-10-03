@@ -1,16 +1,28 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python environments
 venv/
-**/venv/
 .venv/
 .venv-wsl/
+**/venv/
+**/.venv/
+**/.venv-wsl/
+
+# Python cache
 __pycache__/
 *.pyc
 
+# IDE
 .vscode/
 .idea/
 
+# OS
 .DS_Store
 Thumbs.db
-
-node_modules/
-**/node_modules/
-**/node_modules/*
