@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{ post.title }}</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+<body>
+
+    <div class="container small-container">
+
+
+        <a href="{{ url_for('show_posts') }}"
+           class="back-link">
+
+            ← Back to Posts
+
+        </a>
+
+
+        <article class="single-post">
+
+            <h1>
+                {{ post.title }}
+            </h1>
+
+
+            <p class="post-meta">
+
+                By {{ post.author }}
+
+                <span>•</span>
+
+                {{ post.createdAt.strftime('%d %B %Y, %I:%M %p') }}
+
+            </p>
+
+
+            <hr>
+
+
+            <div class="post-content">
+
+                {{ post.content }}
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</body>
+
+</html>
