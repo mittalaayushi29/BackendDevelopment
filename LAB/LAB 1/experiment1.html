@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 Elements Demonstration">
+    <title>HTML5 Elements</title>
+</head>
+
+<body>
+
+<header>
+    <h1>HTML5 Elements Demonstration</h1>
+
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#elements">Elements</a> |
+        <a href="#form">Form</a>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+
+    <section id="about">
+        <h2>About HTML5</h2>
+
+        <p>
+            HTML5 is the standard markup language used for structuring
+            content on the web.
+        </p>
+
+        <p>
+            This page demonstrates <strong>important</strong>,
+            <em>semantic</em> and <mark>modern HTML5</mark> elements.
+        </p>
+    </section>
+
+    <section id="elements">
+
+        <h2>Text Elements</h2>
+
+        <p>This is a paragraph.</p>
+
+        <blockquote>
+            HTML provides the structure of a web page.
+        </blockquote>
+
+        <p>
+            Example abbreviation:
+            <abbr title="HyperText Markup Language">HTML</abbr>
+        </p>
+
+        <p>
+            Example code:
+            <code>&lt;h1&gt;Hello&lt;/h1&gt;</code>
+        </p>
+
+        <p>
+            H<sub>2</sub>O and 2<sup>3</sup> = 8
+        </p>
+
+
+        <h2>Lists</h2>
+
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+
+        <ol>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Database</li>
+        </ol>
+
+
+        <h2>Table</h2>
+
+        <table border="1">
+
+            <caption>Student Technologies</caption>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Technology</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Aayushi</td>
+                    <td>HTML5</td>
+                </tr>
+
+                <tr>
+                    <td>Student 2</td>
+                    <td>CSS3</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+
+        <h2>Figure</h2>
+
+        <figure>
+            <img
+                src="https://via.placeholder.com/250"
+                alt="Sample placeholder image"
+            >
+
+            <figcaption>
+                Example of the HTML5 figure element
+            </figcaption>
+        </figure>
+
+
+        <h2>Audio</h2>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+
+        <h2>Video</h2>
+
+        <video width="400" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+
+        <h2>Details Element</h2>
+
+        <details>
+            <summary>What is HTML5?</summary>
+            <p>
+                HTML5 is the modern standard for structuring web content.
+            </p>
+        </details>
+
+    </section>
+
+
+    <article>
+
+        <h2>Semantic HTML</h2>
+
+        <p>
+            The article element represents independent,
+            self-contained content.
+        </p>
+
+    </article>
+
+
+    <aside>
+
+        <h3>Did You Know?</h3>
+
+        <p>
+            Semantic HTML improves accessibility and helps search engines
+            understand page structure.
+        </p>
+
+    </aside>
+
+
+    <section id="form">
+
+        <h2>HTML5 Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                required
+                placeholder="Enter your name"
+            >
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                required
+            >
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input
+                type="password"
+                id="password"
+            >
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input
+                type="date"
+                id="dob"
+            >
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input
+                type="number"
+                id="age"
+                min="1"
+                max="100"
+            >
+
+            <br><br>
+
+            <label for="color">Favourite Colour:</label>
+            <input
+                type="color"
+                id="color"
+            >
+
+            <br><br>
+
+            <label for="range">Experience:</label>
+            <input
+                type="range"
+                id="range"
+                min="0"
+                max="10"
+            >
+
+            <br><br>
+
+            <label for="message">Message:</label><br>
+
+            <textarea
+                id="message"
+                rows="4"
+                cols="40">
+            </textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 HTML5 Lab Experiment</p>
+</footer>
+
+</body>
+</html>

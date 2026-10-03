@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Types of CSS</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        #internal-example {
+            background-color: #d1fae5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .internal-heading {
+            color: #047857;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Types of Cascading Style Sheets</h1>
+</header>
+
+
+<main>
+
+    <section>
+
+        <h2>1. Inline CSS</h2>
+
+        <p style="
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 20px;
+            border-radius: 8px;
+        ">
+            This paragraph is styled using Inline CSS.
+        </p>
+
+    </section>
+
+
+    <section id="internal-example">
+
+        <h2 class="internal-heading">
+            2. Internal CSS
+        </h2>
+
+        <p>
+            This section is styled using CSS written inside
+            the style element in the head.
+        </p>
+
+    </section>
+
+
+    <section class="external-example">
+
+        <h2>3. External CSS</h2>
+
+        <p>
+            This section is styled using an external CSS file.
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>CSS Selectors</h2>
+
+        <p class="highlight">
+            This uses a class selector.
+        </p>
+
+        <p id="unique">
+            This uses an ID selector.
+        </p>
+
+        <article>
+            This element demonstrates an element selector.
+        </article>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>CSS Lab Experiment</p>
+</footer>
+
+</body>
+</html>
