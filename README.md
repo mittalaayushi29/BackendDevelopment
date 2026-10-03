@@ -1,4 +1,28 @@
 # Backend Dev
+
+
+## Theory
+
+---
+
+## Lab
+
+1. [Experiment 1](./Lab/MidExam%20cms%20project/README.md)
+1. [Exam CMS](./Lab/)
+1. [Experiment 2](./Lab/LAB%202/index.html)
+1. [Experiment 3](./Lab/LAB%203/)
+1. [Experiment 4](./Lab/EXPERIMENT%204/)
+1. [Experiement 5](./Lab/EXPERIMENT%205/)
+1. [Experiment 12](./Lab/EXPERIMENT%2012(A)/)
+1. [Experiment 12(b)](./Lab/EXPERIMENT%2012(B)/)
+1. [Experiment 13(a)](./Lab/EXPERIMENT%2013(a)/)
+1. [Experiment 13(b)](./Lab/EXPERIEMENT%2013(b)/)
+1. [Experiment 14](./Lab/Experiment%2014/READMD.md)
+
+
+---
+
+
 # Backend Development
 
 This repository contains laboratory experiments, practice programs, and assessment projects completed as part of the **Backend Development** course.
@@ -96,20 +120,4 @@ BackendDevelopment/
 ├── THEORY/
 ├── .gitignore
 └── README.md
-
-## Theory
-
-
-## Lab
-
-1. [Experiment 1](./Lab/MidExam%20cms%20project/README.md)
-1. [Exam CMS](./Lab/)
-1. [Experiment 2](./Lab/LAB%202/)
-1. [Experiment 3](./Lab/LAB%203/)
-1. [Experiment 4](./Lab/EXPERIMENT%204/)
-1. [Experiement 5](./Lab/EXPERIMENT%205/)
-1. [Experiment 12](./Lab/EXPERIMENT%2012(A)/)
-1. [Experiment 12(b)](./Lab/EXPERIMENT%2012(B)/)
-1. [Experiment 13(a)](./Lab/EXPERIMENT%2013(a)/)
-1. [Experiment 13(b)](./Lab/EXPERIEMENT%2013(b)/)
-1. [Experiment 14]
+```
